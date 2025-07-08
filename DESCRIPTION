@@ -1,16 +1,20 @@
 Package: dennispackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Small Statistical Functions
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Dennis", "Gruenewald",
+      email = "d.gruenewald@campus.lmu.de",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This R package offers three small but useful statistical functions: counting missing values, calculating the range of a numeric vector, and computing the standard error of the mean. All functions are documented and designed for practical data analysis.
+URL: https://github.com/Cardii1306/dennispackage
+License: MIT + file LICENSE
+Imports:
+    gitcreds,
+    devtools
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
